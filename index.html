@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strona rejestracji i logowania</title>
+</head>
+<body>
+    <h1>Witaj na stronie rejestracji i logowania</h1>
+    
+    <h2>Rejestracja</h2>
+    <form action="rejestracja.php" method="POST">
+        <label for="username">Nazwa użytkownika:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Zarejestruj się">
+    </form>
+    
+    <h2>Logowanie</h2>
+    <form action="logowanie.php" method="POST">
+        <label for="login_username">Nazwa użytkownika:</label>
+        <input type="text" id="login_username" name="login_username" required><br><br>
+        
+        <label for="login_password">Hasło:</label>
+        <input type="password" id="login_password" name="login_password" required><br><br>
+        
+        <input type="submit" value="Zaloguj się">
+    </form>
+</body>
+</html>
